@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Vanila CSS -->
+    <link rel="stylesheet" href="add.css" />
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg position-fixed w-100 z-3 fixed-top"
+      style="
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px;
+      "
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-size: 2.5em">
+          <span style="color: blue">Edu</span>Local</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mx-4" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#lesson"
+                >About Us</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lesson
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Programming</a></li>
+                <li><a class="dropdown-item" href="#">Bahasa Inggris</a></li>
+              </ul>
+            </li>
+          </ul>
+          <a
+            href="login.html"
+            class="btn btn-outline-primary"
+            style="
+              width: 80px;
+              height: 45px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+            >Log in</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    
+
+   
+
+   
+
+    <!-- content -->
+
+    <div class="container mt-5">
+
+         <!-- Hero -->
+
+         <div class="hero"  >
+        <div class="row align-items-center">
+            <div class="col-md-6 col-lg-6 " data-aos="zoom-out-down" data-aos-duration="1500">
+                <img class="img-fluid " src="img/programmerc.png" alt="">
+            </div>
+            <div class="col-md-6 col-lg-6   py-5">
+              <h1 class="display-3"> Find Nearest Course..</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque, eius exercitationem debitis a reprehenderit nobis ipsum ut quia? Libero consequatur, minima nulla cupiditate nisi earum amet ab harum nihil!</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-regular fa-star-half-stroke"  style="color: #f0e80f;"></i>
+                </div>
+            </div>
+        </div>
+      </div> 
+        <!-- <div class="hero "  data-aos="zoom-out-down" data-aos-duration="1500">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-lg-6 ">
+                <img class="img-fluid " src="img/logo.png" alt="">
+            </div>
+            <div class="col-md-6 col-lg-6   py-5">
+                <h1 class="display-3">About Us</h1>
+                <p class="text-justify indented-paragraph">EduLocal adalah platform pencarian kursus yang memudahkan Anda menemukan kursus terdekat yang sesuai dengan minat dan kebutuhan Anda. Dengan antarmuka yang intuitif, Anda dapat dengan mudah menjelajahi berbagai pilihan kursus di sekitaran Bandung.</p>
+                  <p class="text-justify indented-paragraph">Kami menyediakan informasi lengkap tentang kursus, termasuk lokasi, jadwal, biaya, dan ulasan pengguna, sehingga Anda dapat membuat keputusan yang tepat dalam pendidikan Anda. EduLocal memungkinkan Anda untuk mencari dan membandingkan kursus dari berbagai penyedia, serta menghubungi mereka secara langsung untuk pendaftaran.</p>
+                  <p class="text-justify indented-paragraph">EduLocal adalah teman terpercaya Anda dalam perjalanan pendidikan Anda. Temukan kursus yang menginspirasi Anda, tingkatkan diri Anda, dan raih impian pendidikan Anda dengan mudah melalui EduLocal. Selamat belajar!</p>
+                <div class="stars">
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-solid fa-star" style="color: #f0e80f;"></i>
+                    <i class="fa-regular fa-star-half-stroke"  style="color: #f0e80f;"></i>
+                </div>
+            </div>
+        </div>
+       
+        </div>  -->
+
+      <!-- Lesson Over -->
+      <h1 class="text-center display-5 mt-4 justify-content-center" id="lesson">Lesson</h1>
+      <p class="text-center fs-5">Course that we provide</p>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 mb-4">
+          <div class="card text-center" style="width: fit-content; background-color: #7bf89a1b;">
+            <img
+              src="img/english.jpg"
+              class="card-img-top"
+              alt="English-course"
+              
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>English Course</b></h5>
+              <p class="card-text">
+                Unlock fluency. Find the perfect English course.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Find Course
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Find by Location
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <select name="" id="">
+                              <option value="default" selected>Select One</option>
+                              <option value="">Andir</option>
+                              <option value="">Antapani</option>
+                              <option value="">Arcamanik</option>
+                              <option value="">Astanaanyar</option>
+                              <option value="">Babakan Ciparay</option>
+                              <option value="">Bandung Kidul</option>
+                              <option value="">Bandung Kulon</option>
+                              <option value="">Bandung Wetan</option>
+                              <option value="">Batununggal</option>
+                              <option value="">Bojongloa Kaler</option>
+                              <option value="">Bojongloa Kidul</option>
+                              <option value="">Buahbatu</option>
+                              <option value="">Cibeunying Kaler</option>
+                              <option value="">Cibeunying Kidul</option>
+                              <option value="">Cibiru</option>
+                              <option value="">Cicendo</option>
+                              <option value="">Cidadap</option>
+                              <option value="">Cinambo</option>
+                              <option value="">Coblong</option>
+                              <option value="">Gedebage</option>
+                              <option value="">Kiaracondong</option>
+                              <option value="">Lengkong</option>
+                              <option value="">Mandalajati</option>
+                              <option value="">Panyileukan</option>
+                              <option value="">Rancasari</option>
+                              <option value="">Regol</option>
+                              <option value="">Sukajadi</option>
+                              <option value="">Sukasari</option>
+                              <option value="">Sumur Bandung</option>
+                              <option value="">Ujungberung</option>
+                            </select>
+                            <input type="submit" value="Submit" class="btn btn-primary"  data-bs-dismiss="modal" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+         <div class="col-md-6 col-lg-6 mb-4">
+          <div class="card text-center" style="width: fit-content; background-color: #b4e3f842;">
+            <img
+              src="img/english.jpg"
+              class="card-img-top"
+              alt="English-course"
+            />
+            <div class="card-body">
+              <h5 class="card-title"><b>Programming Course</b></h5>
+              <p class="card-text">
+                Code your future. Discover programming courses.
+              </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Find Course
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Find by Location
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <select name="" id="">
+                              <option value="default" selected>Select One</option>
+                              <option value="">Andir</option>
+                              <option value="">Antapani</option>
+                              <option value="">Arcamanik</option>
+                              <option value="">Astanaanyar</option>
+                              <option value="">Babakan Ciparay</option>
+                              <option value="">Bandung Kidul</option>
+                              <option value="">Bandung Kulon</option>
+                              <option value="">Bandung Wetan</option>
+                              <option value="">Batununggal</option>
+                              <option value="">Bojongloa Kaler</option>
+                              <option value="">Bojongloa Kidul</option>
+                              <option value="">Buahbatu</option>
+                              <option value="">Cibeunying Kaler</option>
+                              <option value="">Cibeunying Kidul</option>
+                              <option value="">Cibiru</option>
+                              <option value="">Cicendo</option>
+                              <option value="">Cidadap</option>
+                              <option value="">Cinambo</option>
+                              <option value="">Coblong</option>
+                              <option value="">Gedebage</option>
+                              <option value="">Kiaracondong</option>
+                              <option value="">Lengkong</option>
+                              <option value="">Mandalajati</option>
+                              <option value="">Panyileukan</option>
+                              <option value="">Rancasari</option>
+                              <option value="">Regol</option>
+                              <option value="">Sukajadi</option>
+                              <option value="">Sukasari</option>
+                              <option value="">Sumur Bandung</option>
+                              <option value="">Ujungberung</option>
+                            </select>
+                            <input type="submit" value="Submit" class="btn btn-primary" data-bs-dismiss="modal"/>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- info kursus terdekat -->
+
+      <h1 class="display-5 mt-5" style="margin-top: 0px">Tempat Kursus</h1>
+      <p class="text-body-secondary">Tambahan?</p>
+      <div
+        class="row"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        
+      >
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/English.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="card">
+              <img src="img/English.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/English.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+          <div class="card">
+            <img src="img/English.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Komentor -->
+
+      <h1 class="display-5 text-center mt-5" style="margin-top: 0px">
+        Comment about our website
+      </h1>
+      <div class="row mt-4">
+        <div class="col-md-3 col-lg-4">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4 text-center">
+                <img
+                  src="img/johny.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+
+                <p class="mt-4">@johnnyjsuh</p>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Johnny Suh</b></h5>
+                  <p class="card-text">
+                    Informasi yang disediakan sangat lengkap. Saya tidak perlu mencari informasi tambahan di tempat lain.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-4">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4 text-center">
+                <img
+                  src="img/johny2.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+
+                <p class="mt-4">@jeongjaehyun</p>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Jaehyun</b></h5>
+                  <p class="card-text">
+                    Desainnya sangat menarik dan informatif. Saya suka cara mereka mengorganisir informasi tentang kursus-kursus yang tersedia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-lg-4">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4 text-center">
+                <img
+                  src="img/johny2.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+
+                <p class="mt-4">@_seorina</p>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title"><b>Seorina</b></h5>
+                  <p class="card-text">
+                    Saya suka fitur pencarian berdasarkan lokasi. Sangat berguna bagi saya yang ingin mencari kursus di dekat tempat tinggal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Add more similar card elements here with rounded-circle class -->
+      </div>
+    </div>
+    </div>
+    <footer class="bg-primary text-white text-center py-1 mt-5">
+      
+        <div class="row">
+          <div class="col">
+            <p>Call Us Here</p>
+            <p><i class="fab fa-whatsapp"></i> <i class="far fa-envelope"></i> <i class="fab fa-line"></i> <i class="fab fa-instagram"></i></p>
+          </div>
+        </div>
+        
+    
+    </footer>
+
+    <!-- AOS initalization -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Vanilla JS -->
+
+    <script src="script.js"></script>
+
+    <!-- IonIcon -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
